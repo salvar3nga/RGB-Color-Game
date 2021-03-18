@@ -1,0 +1,54 @@
+body{
+    background-color: #181716;
+}
+
+h1{
+    color: white;
+    text-align: center;
+    font-weight: normal;
+    text-transform: uppercase;
+    
+}
+
+button{
+    text-decoration: none;
+}
+
+p{
+    margin: 3px;
+        
+}
+
+h1 span{
+    display: block;
+    margin: 5px;
+    
+}
+
+
+.game-controls{
+    display: flex;
+    justify-content: space-around;
+    background-color: white;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    max-width: 450px;
+    height: 300px;
+    margin: 30px auto;
+    padding: 10px;
+    /* border: 1px solid white; */
+}
+
+.container__color-panel{
+    background: white;
+    margin: 1.66%;
+    width: 100px;
+    height: 100px;
+    border-radius: 30px;
+        
+}
