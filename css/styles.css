@@ -7,12 +7,26 @@ h1{
     text-align: center;
     font-weight: normal;
     text-transform: uppercase;
-    
+    transition: background 0.4s;
 }
 
 button{
     text-decoration: none;
+    cursor: pointer;
+    border: none;
+    margin-inline: 4px;
+    background-color: #fff;
+    outline: none;
+    height: 100%;
 }
+button:hover{
+    background-color: rgb(173, 71, 71);
+    color: white;
+}
+
+a,
+a:active{color: black;}
+
 
 p{
     margin: 3px;
@@ -30,6 +44,7 @@ h1 span{
     display: flex;
     justify-content: space-around;
     background-color: white;
+    min-height: 1.5rem;
 }
 
 .container{
@@ -41,8 +56,12 @@ h1 span{
     height: 300px;
     margin: 30px auto;
     padding: 10px;
-    /* border: 1px solid white; */
 }
+
+.new_color{
+    margin-left: 10px;
+}
+
 
 .container__color-panel{
     background: white;
@@ -50,5 +69,5 @@ h1 span{
     width: 100px;
     height: 100px;
     border-radius: 30px;
-        
+    transition: background 0.4s;    
 }
